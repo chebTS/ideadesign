@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Интерьер-Идея</string>
+    <string name="drawer_open">open</string>
+    <string name="drawer_close">close</string>
+    <string name="about_frag_title">Дизайн-студия \'Интерьер-Идея\'</string>
+    <string name="about_frag_text">Выполняет дизайн-проекты интерьеров жилых и общественнных помещенийю Филиальная сеть и опыт позволяет выполнять прокты в любом регионе Украины.</string>
+    <string name="our_contacts">Наши контакты</string>
+    <string name="phone_text">тел: </string>
+    <string name="phone_val">097 744 08 67</string>
+    <string name="order_online">Заказ online</string>
+    <string name="skype_number">RAPAVA1980</string>
+    <string name="skype_text">skype: </string>
+    <string name="skype_val">RAPAVA1980</string>
+    <string name="site_text">сайт: </string>
+    <string name="site_val">интерьер-идея.укр</string>
+    <string name="site_val_for_intent">"http://i-idea.com.ua/"</string>
+    <string name="our_partners">Наши клиенты</string>
+    <string name="recent_title">Новинки</string>
+    <string name="private_interiors_title">Жилые интерьеры</string>
+    <string name="public_interiors_title">Общественные интерьеры</string>
+    <string name="favorites_title">Избранное</string>
+    <string name="about_title">О нас</string>
+    <string name="order_online_title">Заказ online</string>
+</resources>

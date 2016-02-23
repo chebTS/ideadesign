@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/header_layout" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/pager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <com.viewpagerindicator.CirclePageIndicator
+            android:id="@+id/indicator"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:padding="15dp"
+            app:radius="@dimen/circle_indicator_radius"
+            app:fillColor="@color/indicator_page"
+            app:pageColor="@color/indicator_fill_stroke"
+            app:strokeColor="@color/indicator_page"/>
+        
+        <ImageView
+            android:id="@+id/img_info"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:src="@drawable/info_gray" />
+
+        <ToggleButton
+            android:id="@+id/btn_fav"
+            android:textOff=""
+            android:textOn=""
+            android:background="@drawable/star"
+            android:padding="50dp"
+            android:layout_margin="10dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"/>
+
+        <TextView
+            android:id="@+id/txt_full_text"
+            android:visibility="gone"
+            android:maxLines = "3"
+            android:scrollbars = "vertical"
+            android:layout_alignParentBottom="true"
+            android:textSize="18sp"
+            android:padding="10dp"
+            android:background="@color/undertext_color_dark"
+            android:textColor="@android:color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+</LinearLayout>
